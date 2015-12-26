@@ -1,9 +1,5 @@
-body {
-    font-size: 14px;
-    background: #eeeeee;
-    color: #333333;
-    width: 520px;
-    margin: 0 auto;
+.todo-wrapper {
+    padding: 15px;
 }
 
 #todoapp {

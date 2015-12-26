@@ -22,6 +22,10 @@ phonecatApp.config(['$routeProvider',
         templateUrl: 'partials/phone-detail.html',
         controller: 'PhoneDetailCtrl'
       }).
+      when('/todo', {
+        templateUrl: 'partials/todo.html',
+        controller: 'TodoCtrl'
+      }).
       otherwise({
         redirectTo: '/phones'
       });
